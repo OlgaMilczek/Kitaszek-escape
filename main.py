@@ -1,3 +1,4 @@
+import sys
 import arcade
 import engine
 
@@ -112,7 +113,10 @@ class Game_labirynth (arcade.Window):
 
 
 if __name__ == '__main__':
-    game = Game_labirynth(MAP_FILE, RESOLUTION)
+    if len(sys.argv) == 1:
+        game = Game_labirynth(MAP_FILE, RESOLUTION)
+    else:
+        game = Game_labirynth(sys.argv[1], RESOLUTION)
     arcade.run()
 
 
