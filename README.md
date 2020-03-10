@@ -6,7 +6,7 @@ Put rectangular maps in a `.kmap` file:
 - `.` indicates a free space
 - `#` indicates a wall
 - `Z` indicates a Zbiggy - they're the enemies
-- 'K' indicates Kitaszek, the protagonist
+- `K` indicates Kitaszek, the protagonist
 
 ### How to run
 Install the requirements with `pip install requirements.txt`.
