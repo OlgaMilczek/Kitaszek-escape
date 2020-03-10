@@ -2,7 +2,7 @@ import arcade
 import engine
 
 
-MAP_FILE = 'pustynia2.kmap'
+MAP_FILE = 'Maps/desert2.kmap'
 RESOLUTION = 1920, 1080
 
 WALL_COLOR = (100, 100, 100)
